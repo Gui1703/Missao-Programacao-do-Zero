@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+/* Stylization index.html */
+.upper-case {
+    background-image: url("./assets/dev.png");
+    background-size: cover;
+    height: 110vh;
+}
+
+.header {
+    padding-top: 38px;
+    padding-left: 39px;
+}
+
+.title-header {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-case {
+    margin-left: 137px;
+    display: inline;
+}
+
+.link-header {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    font-size: 18px;
+    background-color: lightgray;
+    border-radius: 15px;
+    border: none;
+    color: #000000;
+    padding: 4px;
+}
+
+/* Formulary */
+h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 513px;
+    margin-left: 65px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.showForm {
+    opacity: 1;
+}
+
+.title-contact {
+    width: 222px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+input {
+    display: block;
+    padding-left: 21px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    Width: 356px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 354px;
+    height: 120px;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+textarea::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    width: 366px;
+    height: 52px;
+    margin: 40px auto 20px auto;
+    background: #40BB15;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+/* Cards */
+#our-services {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+}
+
+.card-center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 326px;
+    border-radius: 10px;
+    background: #EEF6FF;
+    border: 1px solid #A9D6FF;
+    flex-direction: column;
+}
+
+.card-title {
+    background: #219653;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 35px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    height: 200px;
+    padding: 20px;
+    border-radius: 0px 0px 11px 11px;
+}
+
+li {
+    margin-bottom: 3px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+
+/* About us */
+.cardAboutUs {
+    display: flex;
+    flex-direction: column;
+    height: 678px;
+    width: 100%;
+    background: #1E2844;
+    color: #FFFFFF;
+    margin-top: 171px;
+}
+
+#aboutUs {
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    margin: 61px auto 19px auto;
+}
+
+.paragraphAboutUs {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 25px;
+    margin: 0 136px 58px 136px;
+}

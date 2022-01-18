@@ -1,4 +1,4 @@
-# Clone of my WhatsApp profile
+# Dev Contábil
 
 
 <img src="./assets/Print-1.png" alt="Photo Dev Contabil" width="500px">
@@ -9,7 +9,7 @@
 
 
 <br>
-[Link do projeto](https://donsburger.netlify.app) - Project developed with HTML, CSS and JavaScript for accounting firm (Desktop version).
+[Link do projeto](https://gui1703.github.io/Missao-Programacao-do-Zero/) - Project developed with HTML, CSS and JavaScript for accounting firm (Desktop version).
 
 ## 🤝 Contributors.
 
@@ -27,24 +27,3 @@ We thank the following people who contributed to this project:
     </td>
   </tr>
 </table>
-<br>
-<br>
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
